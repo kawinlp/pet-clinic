@@ -1,0 +1,283 @@
+.layerdeposit {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.bodydisplayDeposit {
+    position: relative;
+    width: 100%;
+    min-height: 877px;
+    max-height: 100%;
+    background-color: #FFFADD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.boxbodyDeposit {
+    width: 97%;
+    min-height: 750px;
+    max-height: 100%;
+    background-color: #8ECDDD;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    margin-top: 100px;
+
+
+}
+
+
+.headbodyDeposit {
+    width: 100%;
+    height: 100px;
+    display: flex;
+
+    border-radius: 30px 30px 0px 0px;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+
+
+
+
+.tablespaDeposit {
+    width: 10%;
+    background-color: #FFB32B;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 140%;
+    left: 2%;
+    position: relative;
+    box-shadow: 0px 0px 5px #fffefb;
+}
+
+
+.searchdateDeposit {
+    width: 86%;
+    height: 100%;
+    border-radius: 0px 30px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 2%;
+    position: relative;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.textsearchDeposit {
+    font-size: 150%;
+    position: relative;
+    right: 12%;
+
+}
+
+
+.searchdatebarDeposit {
+    width: 15%;
+    height: 35%;
+    background-color: #ffffff;
+    right: 7%;
+    position: relative;
+    border-radius: 15px;
+    border: 2px solid #7fd8ee;
+
+}
+
+
+
+
+
+
+
+.bodybodyDeposit {
+    width: 100%;
+    min-height: 590px;
+    max-height: 70%;
+    background-color: #f6f6f6;
+    display: grid;
+    flex-direction: column;
+
+}
+
+.footbodyDeposit {
+    width: 100%;
+    min-height: 60px;
+    max-height: 10%;
+    background-color: #b92775;
+    border-radius: 0px 0px 30px 30px;
+
+}
+
+.tableHead {
+    width: 100%;
+    background-color: #7fd8ee;
+}
+
+.Id {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    min-height: 12svh;
+}
+
+.rowData {
+    display: flex;
+
+}
+
+.ID {
+
+    font-size: larger;
+}
+
+
+.Pet {
+
+    font-size: larger;
+}
+
+.Photo {
+
+    font-size: larger;
+}
+
+.Checkin {
+    width: 13%;
+    font-size: larger;
+}
+
+.Checkout {
+    width: 13%;
+    font-size: larger;
+}
+
+.Action {
+    width: 20%;
+    font-size: larger;
+
+}
+
+.Actionbox {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+}
+
+.buttomEdit {
+    border-radius: 5px;
+    border: 2px solid #e4c305;
+    width: 25%;
+    height: 25%;
+    font-size: larger;
+    outline: none;
+    color: #FFFADD;
+    background-color: #f5d627;
+}
+
+.buttomDelete {
+    border-radius: 5px;
+    border: 2px solid #e41405;
+    width: 25%;
+    min-height: 25%;
+    font-size: larger;
+    outline: none;
+    color: #FFFADD;
+    background-color: #f53127;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    background: rgba(77, 77, 77, 0.7);
+    transition: all 0.4s;
+}
+
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+
+.bodyDepositDisplay {
+    margin-top: 5px;
+    width: 100%;
+    min-height: 800px;
+    max-height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    object-fit: fill;
+    background-image: url("../../assets/backgroud3.jpg");
+    background-repeat: no-repeat;
+    background-repeat: fixed;
+    background-size: cover;
+}
+
+.boxFrominputDepositDisplay {
+    display: flex;
+    position: relative;
+    top: 5vh;
+
+    width: 80%;
+    height: 70vh;
+    border-radius: 5vh;
+    backdrop-filter: blur(5px);
+    flex-direction: row;
+}
+
+.DepositCreate {
+    position: relative;
+    left:1300px;
+    top:10px; 
+    background-Color:#FFB32B ;
+    border-Radius: 10px;
+    height: 40px;
+    width: 100%;
+   
+    display: flex; 
+    align-Items:center; 
+    justify-content: center;
+}
+
+.DepositCreate:hover {
+   
+    background-Color:#ffce7a ;
+
+}

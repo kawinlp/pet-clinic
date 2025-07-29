@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.layoutNav2 {
+    width: 100%;
+    max-height: 100%;
+    min-height: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+
+
+
+}
+
+.BodyNav2 {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: #22668D;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.Nav2Logo {
+    width: 7%;
+    height: 90px;
+    position: relative;
+    left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0% 10% 10% 0%;
+
+}
+
+.Nav2Logo img {
+    object-fit: cover;
+    height: 180%;
+    position: relative;
+    top: 6%;
+}
+
+.BodyNavPast2 {
+    background-color: #8ECDDD;
+    width: 90%;
+    height: 90px;
+    position: relative;
+    top: 6%;
+    left: 3%;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.Catintunnel {
+    width: 12%;
+
+    height: 90px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.Catintunnel img {
+    height: 210%;
+    object-fit: cover;
+    position: relative;
+    top: 6%;
+
+
+}
+
+.Nav2ServiceSelect {
+    width: 15%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    color: #FFF8F8;
+    justify-content: center;
+    align-items: center;
+    left: 0%;
+    
+}
+
+.Nav2ServiceSelect-content {
+    display: none;
+    top: 70%;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: #3B94C6;
+    border-radius: 10px;
+    outline: 2px solid white;
+    z-index: 100;
+
+    
+}
+
+.Nav2ServiceSelect-content a {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    position: relative;
+
+}
+
+.Nav2ServiceSelect button {
+    font: 35px sans-serif;
+}
+
+.dropbtn2 {
+    font-size: 50px ;
+}
+
+
+.boxNav2ServiceSelect {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100px;
+    opacity: 1;
+}
+
+.boxNav2ServiceSelect:hover .Nav2ServiceSelect-content {
+    display: inline-block;
+
+}
+
+
+.boxNav2ServiceSelect a {
+    font-size: 25px;
+    z-index: 100px;
+
+}
+
+
+
+.UserIcon2{
+    width: 12%;
+    height: 100%;
+
+    position: relative;
+    left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxUserIcon2{
+    width: 70px;
+    height: 70px;
+    background-color: #b1b9be;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.50);
+    object-fit: cover;
+}
+
+.boxUserIcon2 img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
+
+
+.Nav2ServiceSelectUserIcon-content{
+    display: none;
+    top: 80%;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #3B94C6;
+    border-radius: 10px;
+    outline: 2px solid white;
+    right: 2%;
+    z-index: 100;
+}
+
+.Nav2ServiceSelectUserIcon-content a {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 50px;  
+    align-items: center;
+    
+}
+
+.Nav2ServiceSelectUserIcon-content div{
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 50px;  
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+
+
+.boxUserIcon2:hover .Nav2ServiceSelectUserIcon-content{
+    display:inline-block;
+
+}

@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.layoutNav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: 'Bebas Neue' Sans , sans-serif;
+}
+
+.boxNav1{
+    width: 100%;
+    height: 12vh;
+    backdrop-filter: blur(0px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    
+}
+
+.BodynavCompo{
+    width: 85%;
+    height: 95%;
+    background-color: antiquewhite;
+    border-radius: 116.5px;
+    border: 3px solid #FFF8F8;
+    background: #22668D;
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.50);
+    display: flex;
+    font-family: 'Bebas Neue', sans-serif;
+
+
+}
+
+.NavLogo{
+    width: 12%;
+    height: 100%;
+    bottom: 20%;
+    object-fit: cover;
+    display: flex;
+    position: relative;
+    left: 2%;
+}
+
+.NavLogo img{
+    
+    position: relative;
+    width: 100%;
+    object-fit: fill;
+    display: flex;
+    height: 150%;
+    
+}
+
+.hiCats{
+    width: 24%;
+    height: 100%;
+    bottom: 37%;
+    left: 3%;
+    display: flex;
+    position: relative;
+}
+
+.hiCats img{
+    position: relative;
+    top: -12%;
+    width: 90%;
+    object-fit: fill;
+    display: flex;
+    height: 150%;
+}
+
+.NavServiceSelect{
+    width: 15%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    color:#FFF8F8;
+    justify-content: center;
+    align-items: center;
+    left: 5%;
+
+    z-index: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+
+
+    
+}
+
+
+
+.NavServiceSelect-content{
+    display: none;
+    top: 70%;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #3B94C6;
+    border-radius: 10px;
+    outline: 2px solid white;
+
+    z-index: 100;
+
+}
+
+.NavServiceSelect-content a {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 50px;  
+    align-items: center;
+    
+    
+}
+
+.NavServiceSelect button{
+    font: 35px sans-serif;
+}
+
+.boxNavServiceSelect{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boxNavServiceSelect:hover .NavServiceSelect-content{
+    display:inline-block;
+
+}
+
+
+.boxNavServiceSelect a{
+    font-size: 25px ;
+    
+}
+
+.UserIcon{
+    width: 12%;
+    height: 100%;
+
+    position: relative;
+    left: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxUserIcon{
+    width: 70px;
+    height: 70px;
+    background-color: #b1b9be;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.50);
+    object-fit: cover;
+}
+
+.boxUserIcon img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
+
+
+.NavServiceSelectUserIcon-content{
+    display: none;
+    top: 80%;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #3B94C6;
+    border-radius: 10px;
+    outline: 2px solid white;
+    right: 2%;
+}
+
+.NavServiceSelectUserIcon-content a {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 50px;  
+    align-items: center;
+    
+}
+
+.NavServiceSelectUserIcon-content div {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 50px;  
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+.boxUserIcon:hover .NavServiceSelectUserIcon-content{
+    display:inline-block;
+
+}
+
+
+
+
+@media only screen and (max-width : 800px){
+
+    .boxTab button{
+       
+        font-size: 65%;
+       
+        
+    }
+
+    .boxSpace{
+        width: 2%;
+        background-color: #22668D;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0% ;
+        color: white;
+        
+    }
+
+}

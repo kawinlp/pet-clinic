@@ -1,0 +1,160 @@
+.layerdepositIdentify{
+    width: 100%;
+    min-height: 966px;
+    max-height: 100%;
+    background-color: #22668D;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxdepositidentify{
+    width: 88%;
+    height: 800px;
+    max-height: 100%;
+    background-color: #8ECDDD;
+    border-radius: 100px 100px 0px 0px;
+    border: 9px solid #85BCDC;
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 100% ;
+    text-align: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.backbuttondepositidentify{
+    width: 90%;
+    height: 9%;
+    background-color: inherit;
+    border-radius: 100px 100px 0px 0px;
+    display: flex;
+}
+
+.backbuttondepositidentify a{
+    position: relative;
+    width: 10%;
+    border: none;
+    height: 100%;
+    border-radius: 20px;
+    background-color: inherit;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    top: 20px;
+    left: -2%;
+    
+}
+
+.backbuttondepositidentify a:hover{
+    color: #038fdf;
+}
+
+
+.logodepositidentify{
+    width: 100%;
+    height: 40%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logodepositidentify img{
+    width: 37%;
+    position: relative;
+    
+   
+}
+    
+.textdepositidentify{
+    width: 100%;
+    height: 10%;
+    background-color: inherit;
+   
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.textdepositidentify pre{
+    font-size: 600%;
+    position: relative;
+    top: -170%;
+    color: #22668D;
+    font-weight: lighter;
+
+}
+.filedinputdepositidentify{
+    width: 100%;
+    height: 20%;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    
+}
+.filedinputdepositidentify input{
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    top: 0%;
+    font-size: larger;
+    outline: 5px solid #70CFE7;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+   
+}
+.filedinputdepositidentify input:focus{
+    outline: 5px solid #09b9e6;
+    box-shadow: none;
+
+   
+}
+
+
+.boxsummitdepositidentify{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+
+    background-color: inherit;
+
+}
+.boxsummitdepositidentify button{
+    width: 90%;
+    height: 50%;
+    background-color: #FFCC70;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 15px 15px #28ACCD;
+    font-size: 30px;
+    color: #22668D;
+    font-weight: bold;
+
+}
+
+.boxsummitdepositidentify button:hover{
+    
+    background-color: #eba117;
+   
+    box-shadow: 15px 15px #14c0eb;
+    
+    color: #ffffff;
+    
+
+}

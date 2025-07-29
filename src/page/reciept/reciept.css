@@ -1,0 +1,13 @@
+/* styles.css */
+@import url('https://rsms.me/inter/inter.css');
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.containerStyle{
+  background: url(../../assets/bg-foot.png);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}

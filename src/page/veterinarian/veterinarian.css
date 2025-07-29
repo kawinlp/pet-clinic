@@ -1,0 +1,335 @@
+/* ******************************************************* */
+.centralize {
+  display: flex;
+  justify-content: center;
+}
+
+/* ******************************************************* */
+.grid-container2-5-2Col {
+  display: grid;
+  grid-template-columns: 2fr 5fr 2fr;
+  width: 100%;
+  padding-left: 10vh;
+  padding-top: 10px;
+  padding-right: 10vh;
+}
+
+.grid-container2-6-1Col {
+  display: grid;
+  grid-template-columns: 2fr 6fr 1fr;
+  width: 100%;
+  padding-left: 10vh;
+  padding-top: 10px;
+  padding-right: 10vh;
+}
+
+.grid-container1-1-1-1Col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  padding-left: 10vh;
+  padding-top: 10px;
+  padding-right: 10vh;
+  grid-gap: 50px;
+}
+
+.grid-container1-4Col {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  width: 100%;
+  grid-gap: 30px;
+}
+
+.grid-container1-1ACol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  grid-gap: 30px;
+}
+
+.grid-container5-6Col {
+  border-radius: 10px;
+  display: grid;
+  width: 70%;
+  height: 50px;
+  grid-template-columns: 5fr 6fr;
+  grid-gap: 30px;
+  background-color: #FFB32B;
+}
+
+.grid-container5-6ACol {
+  border-radius: 10px;
+  display: grid;
+  width: 90%;
+  height: 50px;
+  grid-template-columns: 5fr 6fr;
+  grid-gap: 30px;
+  background-color: #FFB32B;
+}
+
+.grid-container5-6BCol {
+  border-radius: 10px;
+  display: grid;
+  width: 70%;
+  height: 100%;
+  grid-template-columns: 5fr 6fr;
+  grid-gap: 30px;
+  background-color: #FFB32B;
+}
+
+/* ******************************************************* */
+.grid-item-pagetitle {
+  background-color: #8ECDDD;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  border-radius: 10px;
+  color: white;
+}
+
+.createButtonBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createButtonBox a {
+  background-color: #FFB32B;
+  width: 90%;
+  height: 60%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.updateButtonBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.updateButtonBox button {
+  background-color: #FFB32B;
+  width: 40%;
+  height: 60%;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.createForm {
+  width: 90%;
+  border: #000000;
+  border-style: ridge;
+  background-color: #22668D;
+  padding: 10vh;
+  border-radius: 15px;
+}
+
+.updateForm {
+  width: 90%;
+  border-radius: 15px;
+}
+
+.formLabel {
+  padding: 5px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.formValue {
+  display: flex;
+  align-items: center;
+
+}
+
+.formValue input {
+  border: #000000;
+  border-style: ridge;
+  width: 95%;
+  height: 80%;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.formValue select {
+  border: #000000;
+  border-style: ridge;
+  width: 95%;
+  height: 80%;
+  border-radius: 5px;
+}
+
+
+.buttonBar {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.pairButton {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding: 5px;
+}
+
+.confirmButton {
+  background-color: #FFB32B;
+  width: 80px;
+  height: 45px;
+  border-radius: 10px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cancleButton {
+  background-color: #8ECDDD;
+  width: 80px;
+  height: 45px;
+  border-radius: 10px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.previewImage-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+.previewImage {
+  border: #000000;
+  border-style: double;
+}
+
+.image-column {
+  display: block;
+  background-color: #22668D;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.image-Input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-Input label {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.image-Input .formValue {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.updateForm-column {
+  background-color: #22668D;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.updateForm-column {
+  background-color: #22668D;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.updateForm-column-form {
+  background-color: #8ECDDD;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+
+.image-column-form {
+  background-color: #8ECDDD;
+  width: 90%;
+  height: 110%;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+.vetCard-container{
+  min-height: 600px;
+  width: 90%;
+  background-color: #22668D;
+  padding: 20px;
+  border-radius: 15px;
+  display: block;
+  
+}
+
+.vetCardTitle-container{
+  height: 100px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.vetCardList-container{
+  width: 95%;
+  background-color: #8ECDDD;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  min-height: 350px;
+}
+
+.vetCardTitle{
+  width: 30%;
+  background-color: #FFB32B;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.vetCardSubTitle{
+  width: 100%;
+  background-color: #ffe791;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.vetCardTitle b{
+  font-size: 20px;
+}
+
+.createForm-container{
+  background-color: #8ECDDD;
+  width: 100%;
+  padding: 50px;
+  border-radius: 15px;
+  
+}
+
+.image-Input-container{
+  display: block;
+  background-color: #FFB32B;
+  padding: 2%;
+  border-radius: 10px;
+}
+

@@ -1,0 +1,32 @@
+/* flex-wrap: wrap;
+    flex-direction: column-reverse;
+     */
+
+.reciept-box1 {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 0.75rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    height: 50%;
+    width: 81%; 
+    top: 60%;
+    
+}
+
+
+
+.reciept-box2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 81%;
+}

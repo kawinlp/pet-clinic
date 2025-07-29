@@ -1,0 +1,552 @@
+
+.Layout{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.LayoutEdit{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+    
+
+
+.boxNav{
+   
+    width: 100%;
+    background-color: #22668D;
+   
+    display: flex;
+    justify-content: center;
+   
+    
+    
+}
+
+.bodydisplaySpa{
+   position: relative;
+    width: 100%;
+    min-height: 877px;
+    max-height: 100%;
+    background-color: #FFFADD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.boxbody{
+    width: 97%;
+    min-height: 750px;
+    max-height: 100%;
+    background-color: #8ECDDD;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+   
+
+}
+
+
+.headbody{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    
+    border-radius:   30px 30px 0px 0px ;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+
+
+
+
+.tablespa{
+    width: 10%;
+    background-color: #FFB32B;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 140%;
+    left: 2%;
+    position: relative;
+    box-shadow: 0px 0px 5px  #fffefb;
+}
+
+
+.searchdate{
+    width: 86%;
+    height: 100%;
+    border-radius: 0px 30px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 2%;
+    position: relative;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.textsearch{
+    font-size: 150% ;
+    position: relative;
+    right: 12%;
+
+}
+
+
+.searchdatebar{
+    width: 15%;
+    height: 35%;
+    background-color: #ffffff;
+    right: 7%;
+    position: relative;
+    border-radius: 15px;
+    border: 2px solid #7fd8ee;
+
+}
+
+
+
+
+
+
+
+.bodybody{
+    width: 100%;
+    min-height: 590px;
+    max-height: 70%;
+    background-color: #f6f6f6;
+    display: grid;
+    flex-direction: column;
+    
+}
+
+.footbody{
+    width: 100%;
+    min-height: 60px;
+    max-height: 10%;
+    background-color: #b92775;
+    border-radius:   0px 0px 30px 30px ;
+    
+}
+
+.tableHead{
+    width: 100%;
+    background-color: #7fd8ee;
+}
+
+.Id{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    min-height: 12svh;
+}
+
+.rowData{
+    display: flex;
+    
+}
+
+.ID{
+    
+    font-size: larger;
+}
+.Owner{
+    
+    font-size: larger;
+}
+.Pet{
+    
+    font-size: larger;
+}
+.Photo{
+    
+    font-size: larger;
+}
+
+.service{
+    width: 20%;
+    font-size: larger;
+}
+
+.Action{
+    width: 20%;
+    font-size: larger;
+    
+}
+
+.Actionbox{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+}
+
+.buttomEdit{
+    border-radius: 5px;
+    border: 2px solid #e4c305;
+    width: 25%;
+    height: 25%;
+    font-size: larger;
+    outline: none;
+    color: #FFFADD;
+    background-color: #f5d627;
+}
+
+.buttomDelete{
+    border-radius: 5px;
+    border: 2px solid #e41405;
+    width: 25%;
+    min-height: 25%;
+    font-size: larger;
+    outline: none;
+    color: #FFFADD;
+    background-color: #f53127;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    background: rgba(77, 77, 77, 0.7);
+    transition: all 0.4s;
+  }
+  
+  .modal:target {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+  .boxbox{
+    width: 90%;
+    background-color: #EE8F00;
+    height: 90%;
+    right: 20px;
+    position: relative;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px  #EE8F00;
+}
+
+.boxboxboxEdit{
+    width: 90%;
+    height: 90%;
+    background-color: #f4efd0;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    outline: 3px solid #fffdfb ;
+
+}
+
+.petspa{
+    position: relative;
+    bottom: 1px;
+    width: 100%;
+    height: 10%;
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlespa{
+    width: 30%;
+    height: 95%;
+    background-color: #f4e176;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 250%;
+    border-radius: 0 0 25px 25px;
+    top: -4px;
+    border: 3px solid #fffffe;
+    position: relative;
+    color: #000000;
+}
+
+
+
+.titlespa:hover{
+    
+    background-color: #ffffff;
+
+    border: 3px solid #f5d627;
+   
+    color: #f5d627;
+}
+
+
+
+
+.contentspaEdit{
+    width: 100%;
+    height: 60%;
+   
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.infospaEdit{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.SpadisplaypetName{
+    font-size: 120%;
+    position: relative;
+    left: 17%;
+    top: -6px;
+
+}
+
+.Spadisplaypetname{
+    width: 60%;
+    height: 8%;
+    border-radius: 10px;
+    border: none ;
+    position: relative;
+    left: 17%;
+    outline:  1.5px solid #eee9c7;
+    text-align: center; 
+    font-size: 140%;
+}
+
+.serviceDate{
+    font-size: 120%;
+    position: relative;
+    left: 17%;
+   
+}
+
+.servicedate{
+    width: 70%;
+    
+    border-radius: 10px;
+    border: none ;
+    position: relative;
+
+    left: 16.5%;
+    outline:  1.5px solid #eee9c7;
+    text-align: center; 
+    font-size: 160%;
+}
+
+.boxweight{
+    width: 100%;
+    height: 10%;
+    
+    display: flex;
+    
+    align-items: center;
+    flex-direction: row;
+}
+
+.petWeight{
+    font-size: 120%;
+    position: relative;
+    left: 17%;
+
+
+}
+.petweight{
+    width: 50%;
+    height: 73%;
+    border-radius: 10px;
+    border: none ;
+    position: relative;
+
+    left: 16.5%;
+    outline:  1.5px solid #eee9c7;
+    text-align: center; 
+    font-size: 140%;
+}
+
+.kg{
+    font-size: 120%;
+    position: relative;
+    left: 18%;
+
+
+}
+
+.boxprice{
+    width: 100%;
+    height: 10%;
+    
+    display: flex;
+    
+    align-items: center;
+    flex-direction: row;
+}
+
+.Price{
+    font-size: 120%;
+    position: relative;
+    left: 18%;
+
+
+}
+.price{
+    width: 50%;
+    height: 73%;
+    border-radius: 10px;
+    border: none ;
+    position: relative;
+    left: 17%;
+    outline:  1.5px solid #eee9c7;
+    font-size: 140%;
+    display: flex;
+    text-align: center; 
+
+}
+
+.bath{
+    font-size: 120%;
+    position: relative;
+    left:  19%;
+
+
+}
+
+
+.photopet{
+    width: 60%;
+    object-fit: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.photopet img{
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+
+
+
+
+
+.comment{
+    width: 100%;
+    height: 30%;
+    position: relative;
+    border-radius: 0 0 50px 50px ;
+    display: flex;
+    flex-direction: column;
+    top: -3%;
+   
+}
+
+.boxtextcomment{
+    width: 90%;
+    height: 20%;
+    position: relative;
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    left: 7.5%;
+    font-size: 120%;
+
+    
+}
+.boxfieldcomment{
+    width: 86%;
+    height: 70%;
+    background-color: #ffffff;
+    left: 6.5%;
+    position: relative;
+    border-radius: 15px 15px 15px 15px;
+    border: 2px solid #eee9c7 ;
+    font-size: 150%;
+    
+}
+
+.bodySpaREdit{
+    width: 100%;
+    
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.SelectSpatype{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+   
+    justify-content: center;
+}
+
+.InputTypeSpa{
+    width: 10%;
+    height: 30%;
+
+}
+
+.DepositCreate {
+    position: relative;
+    left:px;
+    top:10px; 
+    background-Color:#FFB32B ;
+    border-Radius: 10px;
+    height: 40px;
+    width: 100%;
+   
+    display: flex; 
+    align-Items:center; 
+    justify-content: center;
+}
+
+.DepositCreate:hover {
+   
+    background-Color:#ffce7a ;
+
+}

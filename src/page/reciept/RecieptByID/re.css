@@ -1,0 +1,8 @@
+
+
+.containerStyle{
+    background: url(../../../assets/bg-foot.png);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
