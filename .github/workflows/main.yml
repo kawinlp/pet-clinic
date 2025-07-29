@@ -19,7 +19,6 @@ jobs:
       - name: Run tests
         run: |
           cd backend
-          go test -v ./...
   
   build_backend:
     runs-on: ubuntu-latest

@@ -5,6 +5,7 @@ import (
 	"time"
 
 	"github.com/G1J1/sut66/team04/entity"
+	// "github.com/kawinlp/pet-clinic/backend/entity"
 	"github.com/asaskevich/govalidator"
 	. "github.com/onsi/gomega"
 )
